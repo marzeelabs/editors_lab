@@ -144,6 +144,7 @@ class App extends Component {
           <div className="container">
             <span className="for-demo__label">For editors lab demo</span>
             <ul className="for-demo__menu">
+              <li><a href="/">Home</a></li>
               <li><a href="/?event=2017-10-15_foz-arelho">Foz arelho</a></li>
               <li><a href="/?event=2017-10-15_olho-marinho-open">Olho Marinho - on going</a></li>
               <li><a href="/?event=2017-10-15_olho-marinho">Olho Marinho</a></li>

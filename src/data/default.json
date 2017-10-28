@@ -1,10 +1,10 @@
 {
   "event": "Fire Timelime",
-  "description": "Publico Editors Lab - Wildfire Reporting",
+  "description": "The “Fire Timeline” is a tool that allows the journalist of a small local newspaper to rapidly report a wildfire on the newsroom’s website, transmitting to the community real time information about the development of the fire since it started until its closure. Having a small team, a local newsroom without dedicated journalists to the digital platform still needs, in case of a calamity, to publish in time information to keep the local community updated about its effects and dangers. With the “Fire Timeline” the journalist can publish small notes that are faster to write and edit than complete news. As the content is updated and gathered all in the same place, the readers have easy access to all the crucial information without having to search through several articles.",
   "status": "open",
   "area": "",
-  "number_injured": "1",
-  "number_killed": "0",
+  "number_injured": "",
+  "number_killed": "",
   "number_facilities_burned": "",
   "details": [
   {
