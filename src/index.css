@@ -58,6 +58,8 @@ img {
   margin: 2em auto;
   position: relative;
   padding: 2em 10px; }
+  .vertical-timeline img {
+    margin-top: 1em; }
   .vertical-timeline::after {
     content: '';
     display: table;
