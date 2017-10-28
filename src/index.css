@@ -283,9 +283,13 @@ img {
       padding-left: 0; } }
 
 .for-demo {
-  background: #f4f4f4;
+  background: rgba(220, 220, 220, 0.7);
   padding: 20px 10px;
-  text-align: right; }
+  text-align: right;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%; }
 
 .for-demo__label {
   float: left;
