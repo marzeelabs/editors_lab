@@ -1,4 +1,4 @@
-import React, { Component, type } from 'react';
+import React, { Component } from 'react';
 import logo from './logo_grande.png';
 import * as FontAwesome from 'react-icons/lib/fa'
 
@@ -9,9 +9,7 @@ class App extends Component {
 
   renderTimelineItems(details) {
     return details.map((entry) => {
-
-
-
+      
       var IconType = '';
 
       switch(entry.icon) {
