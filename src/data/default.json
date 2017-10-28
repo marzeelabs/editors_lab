@@ -11,7 +11,7 @@
       "key": "1",
       "date": "",
       "title": "PROBLEM",
-      "content": "<ul><li>Lack of resources on Local Newspapers</li><li>Wildfires generate realtime information</li><li>Wildfires generate a lot of events</li><li>Wildfires generate a lot of events</li></ul>",
+      "content": "<ul><li>Lack of resources on Local Newspapers</li><li>Wildfires generate realtime information</li><li>One Wildfire can generate multiple articles</li></ul>",
       "iconStyle": "",
       "icon": ""
     },
