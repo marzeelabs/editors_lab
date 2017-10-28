@@ -1,0 +1,90 @@
+{
+  "event": "Incêndio Foz do Arelho",
+  "description": "A zona das quebradas na Serra do Bouro, entre a Foz do Arelho e Salir de Matos, está a ser consumida por um fogo que deflagrou pelas 20h00 de 15 de Outubro. Está cortada a circulação na Estrada Atlântica e há casas ameaçadas.",
+  "status": "closed",
+  "area": "430 hectares de área ardida",
+  "number_injured": "4",
+  "number_killed": "0",
+  "number_facilities_burned": "10 estufas",
+  "details": [{
+      "key": "1",
+      "date": "20h15 - 15 Outubro",
+      "title": "Há fogo na Foz do Arelho",
+      "content": "Está a lavrar um incêndio na encosta Norte da Foz do Arelho em direcção à Serra do Bouro. O alerta foi dado pelas 20h05, foram mobilizados para o local 8 viaturas e cerca de 30 elementos dos bombeiros das Caldas da Rainha.",
+      "iconStyle": "",
+      "icon": ""
+    },
+    {
+      "key": "2",
+      "date": "21h00 - 15 Outubro",
+      "title": "Fogo violento encerra Estrada Atlântica",
+      "content": "O incêndio está nesta altura descontrolado e já provocou o corte da circulação automóvel na Estrada Atlântica, entre a Foz do Arelho e Salir do Porto.As chamas ardem com violência, propagam-se com muita velocidade e são visíveis do centro da cidade das Caldas da Rainha.",
+      "iconStyle": "",
+      "icon": ""
+    },
+    {
+      "key": "3",
+      "date": "21h30 - 15 Outubro",
+      "title": "Habitações ameaçadas",
+      "content": "Há nesta altura casas ameaçadas no Bouro. Os bombeiros estão sem capacidade para atacar o fogo e limitam-se a proteger as habitações entretanto ameaçadas pelas chamas. A corporação caldense teve de desviar meios para mais duas ignições que deflagraram quase em simultâneo, no Carvalhal Benfeito e no Landal.",
+      "iconStyle": "",
+      "icon": ""
+    },
+    {
+      "key": "4",
+      "date": "21h45 - 15 Outubro",
+      "title": "Pessoas na estrada em perigo",
+      "content": "Há centenas de pessoas à beira da estrada a ver as chamas, comportamento considerado perigoso. Os bombeiros alertam para que as pessoas não se dirijam para o local para assistir ao incêndio.",
+      "iconStyle": "",
+      "icon": ""
+    },
+    {
+      "key": "5",
+      "date": "23h00 - 15 Outubro",
+      "title": "Populares ajudam bombeiros",
+      "content": "O incêndio já consumiu grande parte da área entre a Foz do Arelho e a Serra do Bouro. Há populares a ajudar os bombeiros na defesa das casas ameaçadas. Até ao momentos não há desalojados. O vento que sopra de sudeste está a manter as chamas entre a estrada e o mar.",
+      "iconStyle": "",
+      "icon": ""
+    },
+    {
+      "key": "6",
+      "date": "00h15 - 16 Outubro",
+      "title": "Ignição em Salir do Porto",
+      "content": "Enquanto as chamas continuam a avançar em direcção a Norte, surge o alerta da ignição de uma segunda frente em Salir do Porto.",
+      "iconStyle": "",
+      "icon": ""
+    },
+    {
+      "key": "7",
+      "date": "00h30 - 16 Outubro",
+      "title": "São Martinho e Cadaval ajudam Caldas",
+      "content": "Chegam reforços para os bombeiros das Caldas no combate ao incêndio, são equipas dos bombeiros de São Martinho do Porto e do Cadaval. No teatro de operações estão um total de 23 viaturas e 87 bombeiros.",
+      "iconStyle": "",
+      "icon": ""
+    },
+    {
+      "key": "8",
+      "date": "02h30 - 16 Outubro",
+      "title": "Ardeu uma casa de madeira",
+      "content": "As chamas consumiram uma casa em madeira no Bouro. Trata-se de uma segunda habitação, não se encontravam pessoas no interior.",
+      "iconStyle": "",
+      "icon": ""
+    },
+    {
+      "key": "9",
+      "date": "06h30 - 16 Outubro",
+      "title": "Mais bombeiros desviados",
+      "content": "Pelas 6h00 deflagraram mais dois incêndios no concelho das Caldas da Rainha, nas Águas Santas e em A-dos-Francos, o que conduziu à desmobilização de meios do incêndio na Foz do Arelho.",
+      "iconStyle": "",
+      "icon": ""
+    },
+    {
+      "key": "10",
+      "date": "08h30 - 16 Outubro",
+      "title": "Incêndio extinto",
+      "content": "O incêndio na Serra do Bouro foi dado como extinto. Está reaberta a circulação na Estrada Atlântica. Os bombeiros vão permanecer no local em trabalhos de rescaldo e vigilância.",
+      "iconStyle": "",
+      "icon": ""
+    }
+  ]
+}
