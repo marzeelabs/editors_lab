@@ -35,6 +35,10 @@ class App extends Component {
     return (
       <VerticalTimeline>
         {this.renderTimelineItems(data.details)}
+
+        {data.status === 'open' &&
+          <div className="timeline-footer__dots">...</div>
+        }
       </VerticalTimeline>
     );
   }
@@ -68,6 +72,24 @@ class App extends Component {
         </div>
 
         {this.renderTimeline(data)}
+
+        <div className="timeline-footer">
+          {data.status === 'open' &&
+            <div className="timeline-footer__notice">Artigo em actualização</div>
+          }
+        </div>
+
+
+        <div className="for-demo">
+          <div className="container">
+            <span className="for-demo__label">For editors lab demo</span>
+            <ul className="for-demo__menu">
+              <li><a href="/?event=2017-10-15_foz-arelho">Foz arelho</a></li>
+              <li><a href="/?event=2017-10-15_olho-marinho-open">Olho Marinho - on going</a></li>
+              <li><a href="/?event=2017-10-15_olho-marinho">Olho Marinho</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     );
   }

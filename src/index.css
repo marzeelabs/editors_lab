@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0;
   padding: 0;
@@ -6,6 +7,10 @@ body {
 img {
   max-width: 100%;
   height: auto; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
 
 .App-header {
   text-align: center;
@@ -42,9 +47,9 @@ img {
   .vertical-timeline::before {
     content: '';
     position: absolute;
-    top: 0;
+    top: 3em;
     left: 18px;
-    height: 100%;
+    height: calc(100% - 5em);
     width: 4px;
     background: #ccc; }
   @media only screen and (min-width: 1170px) {
@@ -236,3 +241,50 @@ img {
     transform: translateX(-20px); }
   100% {
     transform: translateX(0); } }
+
+.timeline-footer {
+  max-width: 1170px;
+  margin: -3em auto 50px;
+  padding: 0 0 40px;
+  text-align: center; }
+
+.timeline-footer__notice {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 24px;
+  padding: 10px;
+  background-color: #f00;
+  color: #fff;
+  font-weight: 600; }
+
+.timeline-footer__dots {
+  text-align: center;
+  position: relative;
+  top: 30px;
+  font-size: 30px; }
+
+.for-demo {
+  background: #f4f4f4;
+  padding: 20px 10px;
+  text-align: right; }
+
+.for-demo__label {
+  float: left;
+  text-transform: uppercase; }
+
+.for-demo__menu {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0; }
+  .for-demo__menu li {
+    list-style: none outside none; }
+  .for-demo__menu li {
+    display: inline-block; }
+  .for-demo__menu li {
+    margin-left: 10px;
+    cursor: pointer; }
+    .for-demo__menu li:nth-child(n+2):before {
+      content: "•";
+      margin-right: 10px; }
+    .for-demo__menu li:first-child {
+      margin-left: 0; }

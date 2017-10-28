@@ -14,9 +14,9 @@
   &::before {
     content: '';
     position: absolute;
-    top: 0;
+    top: 3em;
     left: 18px;
-    height: 100%;
+    height: calc(100% - 5em);
     width: 4px;
     background: #ccc;
   }

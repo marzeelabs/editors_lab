@@ -1,0 +1,16 @@
+.for-demo {
+  background: #f4f4f4;
+  padding: 20px 10px;
+  text-align: right;
+}
+
+.for-demo__label {
+  float: left;
+  text-transform: uppercase;
+}
+
+.for-demo__menu {
+  @include reset-list();
+  @include inline-list();
+  @include separator-list();
+}
