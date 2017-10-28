@@ -311,3 +311,7 @@ img {
       margin-right: 10px; }
     .for-demo__menu li:first-child {
       margin-left: 0; }
+  .for-demo__menu a,
+  .for-demo__menu a:hover,
+  .for-demo__menu a:visited {
+    text-decoration: none; }

@@ -17,4 +17,10 @@
   @include reset-list();
   @include inline-list();
   @include separator-list();
+
+  a,
+  a:hover,
+  a:visited {
+    text-decoration: none;
+  }
 }
