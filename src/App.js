@@ -14,22 +14,22 @@ class App extends Component {
 
       switch(entry.icon) {
         case 'road':
-          IconType = FontAwesome.FaRoad;
+          IconType = <FontAwesome.FaRoad />;
           break
         case 'fire':
-          IconType = FontAwesome.FaFire;
+          IconType = <FontAwesome.FaFire />;
           break
         case 'plane':
-          IconType = FontAwesome.FaPlane;
+          IconType = <FontAwesome.FaPlane />;
           break
         case 'ambulance':
-          IconType = FontAwesome.FaAmbulance;
+          IconType = <FontAwesome.FaAmbulance />;
           break
         case 'extinguisher':
-          IconType = FontAwesome.FaExtinguisher;
+          IconType = <FontAwesome.FaFireExtinguisher />;
           break
         default:
-          IconType = FontAwesome.FaFire;
+          IconType = '';
           break
       }
 
@@ -44,7 +44,7 @@ class App extends Component {
             background: "#f00",
             color: "#fff"
           }}
-          icon={<IconType />}
+          icon={IconType}
         />
       );
     });
