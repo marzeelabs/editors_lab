@@ -1,16 +1,20 @@
 .for-demo {
   background: rgba(220,220,220, 0.7);
   padding: 20px 10px;
-  text-align: right;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+
+  @media only screen and (min-width: 1170px) {
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
 }
 
 .for-demo__label {
   float: left;
   text-transform: uppercase;
+  margin-right: 20px;
 }
 
 .for-demo__menu {
