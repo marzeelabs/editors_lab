@@ -20,7 +20,7 @@
       "title": "Fogo violento encerra Estrada Atlântica",
       "content": "O incêndio está nesta altura descontrolado e já provocou o corte da circulação automóvel na Estrada Atlântica, entre a Foz do Arelho e Salir do Porto.As chamas ardem com violência, propagam-se com muita velocidade e são visíveis do centro da cidade das Caldas da Rainha.",
       "iconStyle": "",
-      "icon": ""
+      "icon": "road"
     },
     {
       "key": "3",
@@ -28,7 +28,7 @@
       "title": "Habitações ameaçadas",
       "content": "Há nesta altura casas ameaçadas no Bouro. Os bombeiros estão sem capacidade para atacar o fogo e limitam-se a proteger as habitações entretanto ameaçadas pelas chamas. A corporação caldense teve de desviar meios para mais duas ignições que deflagraram quase em simultâneo, no Carvalhal Benfeito e no Landal.",
       "iconStyle": "",
-      "icon": ""
+      "icon": "home"
     },
     {
       "key": "4",
@@ -36,7 +36,7 @@
       "title": "Pessoas na estrada em perigo",
       "content": "Há centenas de pessoas à beira da estrada a ver as chamas, comportamento considerado perigoso. Os bombeiros alertam para que as pessoas não se dirijam para o local para assistir ao incêndio.",
       "iconStyle": "",
-      "icon": ""
+      "icon": "road"
     },
     {
       "key": "5",
@@ -76,7 +76,7 @@
       "title": "Mais bombeiros desviados",
       "content": "Pelas 6h00 deflagraram mais dois incêndios no concelho das Caldas da Rainha, nas Águas Santas e em A-dos-Francos, o que conduziu à desmobilização de meios do incêndio na Foz do Arelho.",
       "iconStyle": "",
-      "icon": ""
+      "icon": "plane"
     },
     {
       "key": "10",
@@ -84,7 +84,7 @@
       "title": "Incêndio extinto",
       "content": "O incêndio na Serra do Bouro foi dado como extinto. Está reaberta a circulação na Estrada Atlântica. Os bombeiros vão permanecer no local em trabalhos de rescaldo e vigilância.",
       "iconStyle": "",
-      "icon": ""
+      "icon": "extinguisher"
     }
   ]
 }

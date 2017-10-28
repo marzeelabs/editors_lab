@@ -11,8 +11,7 @@
       "date": "16h00 - 15 Outubro",
       "title": "Incêndio no Olho Marinho - 2 Frentes",
       "content": "Deflagra um incêndio na zona do Olho Marinho, concelho de Óbidos. Há duas frentes ativas,  uma nas Cesaredas, de perímetro florestal, e outra no Talefe, perto da Serra D’el Rei, zona de mato. <img src='/img/floresta_arder.jpg' alt='Gazeta das Caldas' title='incêndios Caldas da Rainha' />",
-      "iconStyle": "",
-      "icon": ""
+      "icon": "fire"
     },
     {
       "key": "2",
@@ -20,7 +19,7 @@
       "title": "Incêndio Descontrolado",
       "content": "O vento forte está a fazer avançar as chamas de forma rápida e descontrolada. Na frente do Olho Marinho o fogo está a aproximar-se de povoações. Estão no local 132 bombeiros apoiados por 32 viaturas.",
       "iconStyle": "",
-      "icon": ""
+      "icon": "fire"
     },
     {
       "key": "3",
@@ -28,7 +27,7 @@
       "title": "Circulação cortada no IP6",
       "content": "O IP6 está cortado ao trânsito nos dois sentidos, entre o nó da A8 e a saída da Serra D’El Rei. O fogo atravessou a via e lavra com intensidade de ambos os lados. <img src='/img/estrada_cortada.jpg' alt='Gazeta das Caldas' title='incêndios Caldas da Rainha' />",
       "iconStyle": "",
-      "icon": ""
+      "icon": "road"
     },
     {
       "key": "4",
@@ -36,7 +35,7 @@
       "title": "Circulação cortada na EN114",
       "content": "A EN114 também está fechada ao trânsito, no mesmo local. O trânsito está a ser desviado a norte para o Vau e a sul para a Lourinhã.",
       "iconStyle": "",
-      "icon": ""
+      "icon": "road"
     },
     {
       "key": "5",
@@ -52,7 +51,7 @@
       "title": "Circulação cortada no IP6",
       "content": "O fogo continua descontrolado e ameaça habitações em três povoações: Olho Marinho, Casais Ladeira e Perna de Pau.<br>Os bombeiros das Caldas da Rainha que estavam a apoiar no terreno foram desmobilizados para outro incêndio na Serra do Bouro. Permanecem no local 100 bombeiros e 28 viaturas.",
       "iconStyle": "",
-      "icon": ""
+      "icon": "road"
     },
     {
       "key": "7",
@@ -60,7 +59,7 @@
       "title": "Comandante sem meios disponíveis",
       "content": "Carlos Silva, comandante dos bombeiros de Óbidos, queixa-se da falta de meios para o combate ao incêndio. Os bombeiros estão a limitar-se proteger as casas ameaçadas",
       "iconStyle": "",
-      "icon": ""
+      "icon": "plane"
     },
     {
       "key": "8",
@@ -68,7 +67,7 @@
       "title": "Bombeiros Feridos",
       "content": "Quatro bombeiros foram conduzidos ao hospital das Caldas da Rainha para serem assistidos, três por intoxicação por inalação de fumos e um com uma lesão ocular. Os quatro apresentam ferimentos ligeiros.Até ao momento não há habitações consumidas pelo fogo nem houve necessidade de evacuar os moradores. <img src='/img/feridos.jpg' alt='Gazeta das Caldas' title='incêndios Caldas da Rainha' />",
       "iconStyle": "",
-      "icon": ""
+      "icon": "ambulance"
     },
     {
       "key": "9",
@@ -84,7 +83,7 @@
       "title": "Incêndio dominado",
       "content": "O incêndio é dado como dominado.<img src='/img/fogo_controlado.jpg' alt='Gazeta das Caldas' title='incêndios Caldas da Rainha' />",
       "iconStyle": "",
-      "icon": ""
+      "icon": "extinguisher"
     },
     {
       "key": "10",
@@ -92,7 +91,7 @@
       "title": "Incêndio extinto",
       "content": "Está extinto o incêndio no Olho Marinho. A área ardida ascende aos 470 hectares de floresta,  mato e zona agrícola. Os bombeiros vão proceder à fase de rescaldo.",
       "iconStyle": "",
-      "icon": ""
+      "icon": "extinguisher"
     }
 
   ]
