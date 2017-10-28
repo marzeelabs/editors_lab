@@ -1,85 +1,82 @@
-[
-  { 
-    "event": "Incêndio Olho Marinho",
-    "description": "",
-    "status" : "closed",
-    "area": "430  hectares de área ardida",
-    "number_injured": "4",
-    "number_killed": "0",
-    "number_facilities_burned": "10 estufas",
-    "details" :[
-      {
+{
+  "event": "Incêndio Olho Marinho",
+  "description": "",
+  "status": "closed",
+  "area": "430  hectares de área ardida",
+  "number_injured": "4",
+  "number_killed": "0",
+  "number_facilities_burned": "10 estufas",
+  "details": [{
       "key": "1",
       "date": "16h00 - 15 Outubro",
       "title": "Incêndio no Olho Marinho - 2 Frentes",
       "content": "Deflagra um incêndio na zona do Olho Marinho, concelho de Óbidos. Há duas frentes ativas,  uma nas Cesaredas, de perímetro florestal, e outra no Talefe, perto da Serra D’el Rei, zona de mato.",
       "iconStyle": "",
       "icon": ""
-      }, 
-      {
+    },
+    {
       "key": "2",
       "date": "17h00 - 15 Outubro",
       "title": "Incêndio Descontrolado",
       "content": "O vento forte está a fazer avançar as chamas de forma rápida e descontrolada. Na frente do Olho Marinho o fogo está a aproximar-se de povoações. Estão no local 132 bombeiros apoiados por 32 viaturas.",
       "iconStyle": "",
       "icon": ""
-      },
-      {
+    },
+    {
       "key": "3",
       "date": "17h50 - 15 Outubro",
       "title": "Circulação cortada no IP6",
       "content": "O IP6 está cortado ao trânsito nos dois sentidos, entre o nó da A8 e a saída da Serra D’El Rei. O fogo atravessou a via e lavra com intensidade de ambos os lados.",
       "iconStyle": "",
       "icon": ""
-      },
-      {
+    },
+    {
       "key": "4",
       "date": "18h10 - 15 Outubro",
       "title": "Circulação cortada na EN114",
       "content": "A EN114 também está fechada ao trânsito, no mesmo local. O trânsito está a ser desviado a norte para o Vau e a sul para a Lourinhã.",
       "iconStyle": "",
       "icon": ""
-      },
-            {
+    },
+    {
       "key": "5",
       "date": "19h00 - 15 Outubro",
       "title": "Danos materiais - Estufas",
       "content": "A frente do Talefe consumiu estufas agrícolas.",
       "iconStyle": "",
       "icon": ""
-      },
-            {
+    },
+    {
       "key": "6",
       "date": "21h00 - 15 Outubro",
       "title": "Circulação cortada no IP6",
       "content": "O fogo continua descontrolado e ameaça habitações em três povoações: Olho Marinho, Casais Ladeira e Perna de Pau.<br>Os bombeiros das Caldas da Rainha que estavam a apoiar no terreno foram desmobilizados para outro incêndio na Serra do Bouro. Permanecem no local 100 bombeiros e 28 viaturas.",
       "iconStyle": "",
       "icon": ""
-      },
-      {
+    },
+    {
       "key": "7",
       "date": "21h30 - 15 Outubro",
       "title": "Comandante sem meios disponíveis",
       "content": "Carlos Silva, comandante dos bombeiros de Óbidos, queixa-se da falta de meios para o combate ao incêndio. Os bombeiros estão a limitar-se proteger as casas ameaçadas",
       "iconStyle": "",
       "icon": ""
-      },
-            {
+    },
+    {
       "key": "8",
       "date": "21h30 - 15 Outubro",
       "title": "Comandante sem meios disponíveis",
       "content": "Carlos Silva, comandante dos bombeiros de Óbidos, queixa-se da falta de meios para o combate ao incêndio. Os bombeiros estão a limitar-se proteger as casas ameaçadas",
       "iconStyle": "",
       "icon": ""
-      },
-            {
+    },
+    {
       "key": "9",
       "date": "21h30 - 15 Outubro",
       "title": "Comandante sem meios disponíveis",
       "content": "Carlos Silva, comandante dos bombeiros de Óbidos, queixa-se da falta de meios para o combate ao incêndio. Os bombeiros estão a limitar-se proteger as casas ameaçadas",
       "iconStyle": "",
       "icon": ""
-      },
-    ]
-  }
-]
+    }
+  ]
+}
