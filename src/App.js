@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, type } from 'react';
 import logo from './logo_grande.png';
 import * as FontAwesome from 'react-icons/lib/fa'
 
@@ -9,7 +9,9 @@ class App extends Component {
 
   renderTimelineItems(details) {
     return details.map((entry) => {
-      
+
+
+
       var IconType = '';
 
       switch(entry.icon) {
@@ -92,6 +94,41 @@ class App extends Component {
           <p className="App-intro">
             {data.description}
           </p>
+        </div>
+
+        <div className="summary container">
+          {data.area &&
+            <div className="summary-item">
+              <div className="summary-item__label">Área ardida</div>
+              <div className="summary-item__content">{data.area}</div>
+            </div>
+          }
+
+          {(data.number_injured || data.number_killed) &&
+            <div className="summary-item">
+              <div className="summary-item__inner">
+                {data.number_killed &&
+                  <div>
+                    <div className="summary-item__label">Mortos</div>
+                    <div className="summary-item__content">{data.number_killed}</div>
+                  </div>
+                }
+                {data.number_injured &&
+                  <div>
+                    <div className="summary-item__label">Feridos</div>
+                    <div className="summary-item__content">{data.number_injured}</div>
+                  </div>
+                }
+              </div>
+            </div>
+          }
+
+          {data.number_facilities_burned &&
+            <div className="summary-item">
+              <div className="summary-item__label">Danos Materiais</div>
+              <div className="summary-item__content">{data.number_facilities_burned}</div>
+            </div>
+          }
         </div>
 
         {this.renderTimeline(data)}
