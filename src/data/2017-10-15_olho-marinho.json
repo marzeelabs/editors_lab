@@ -1,8 +1,8 @@
 {
   "event": "Incêndio Olho Marinho",
-  "description": "",
+  "description": "Um incêndio que deflagrou no domingo na freguesia do Olho Marinho, concelho de Óbidos, fez quatro feridos ligeiros entre os bombeiros, destruiu um conjunto de estufas agrícolas e obrigou ao corte da circulação no IP6 e na EN114 entre Óbidos e Peniche. Foi extinto na manhã de segunda-feira, depois de consumir 470 hectares de floresta, mato e zona agrícola.",
   "status": "closed",
-  "area": "430 hectares de área ardida",
+  "area": "470 hectares de área ardida",
   "number_injured": "4",
   "number_killed": "0",
   "number_facilities_burned": "10 estufas",
@@ -10,7 +10,7 @@
       "key": "1",
       "date": "16h00 - 15 Outubro",
       "title": "Incêndio no Olho Marinho - 2 Frentes",
-      "content": "Deflagra um incêndio na zona do Olho Marinho, concelho de Óbidos. Há duas frentes ativas,  uma nas Cesaredas, de perímetro florestal, e outra no Talefe, perto da Serra D’el Rei, zona de mato.",
+      "content": "Deflagra um incêndio na zona do Olho Marinho, concelho de Óbidos. Há duas frentes ativas,  uma nas Cesaredas, de perímetro florestal, e outra no Talefe, perto da Serra D’el Rei, zona de mato. <img src='/img/floresta_arder.jpg' alt='Gazeta das Caldas' title='incêndios Caldas da Rainha' />",
       "iconStyle": "",
       "icon": ""
     },
@@ -26,7 +26,7 @@
       "key": "3",
       "date": "17h50 - 15 Outubro",
       "title": "Circulação cortada no IP6",
-      "content": "O IP6 está cortado ao trânsito nos dois sentidos, entre o nó da A8 e a saída da Serra D’El Rei. O fogo atravessou a via e lavra com intensidade de ambos os lados.",
+      "content": "O IP6 está cortado ao trânsito nos dois sentidos, entre o nó da A8 e a saída da Serra D’El Rei. O fogo atravessou a via e lavra com intensidade de ambos os lados. <img src='/img/estrada_cortada.jpg' alt='Gazeta das Caldas' title='incêndios Caldas da Rainha' />",
       "iconStyle": "",
       "icon": ""
     },
@@ -64,19 +64,36 @@
     },
     {
       "key": "8",
-      "date": "21h30 - 15 Outubro",
-      "title": "Comandante sem meios disponíveis",
-      "content": "Carlos Silva, comandante dos bombeiros de Óbidos, queixa-se da falta de meios para o combate ao incêndio. Os bombeiros estão a limitar-se proteger as casas ameaçadas",
+      "date": "22h30 - 15 Outubro",
+      "title": "Bombeiros Feridos",
+      "content": "Quatro bombeiros foram conduzidos ao hospital das Caldas da Rainha para serem assistidos, três por intoxicação por inalação de fumos e um com uma lesão ocular. Os quatro apresentam ferimentos ligeiros.Até ao momento não há habitações consumidas pelo fogo nem houve necessidade de evacuar os moradores. <img src='/img/feridos.jpg' alt='Gazeta das Caldas' title='incêndios Caldas da Rainha' />",
       "iconStyle": "",
       "icon": ""
     },
     {
       "key": "9",
-      "date": "21h30 - 15 Outubro",
-      "title": "Comandante sem meios disponíveis",
-      "content": "Carlos Silva, comandante dos bombeiros de Óbidos, queixa-se da falta de meios para o combate ao incêndio. Os bombeiros estão a limitar-se proteger as casas ameaçadas",
+      "date": "23h15 - 15 Outubro",
+      "title": "Bombeiros evitam o pior",
+      "content": "Já não há casas ameaçadas. As chamas estiveram muito próximas de algumas habitações mas o esforço conjunto dos bombeiros e da população permitiu salvar todas.",
+      "iconStyle": "",
+      "icon": ""
+    },
+    {
+      "key": "10",
+      "date": "5h00 - 16 Outubro",
+      "title": "Incêndio dominado",
+      "content": "O incêndio é dado como dominado.<img src='/img/fogo_controlado.jpg' alt='Gazeta das Caldas' title='incêndios Caldas da Rainha' />",
+      "iconStyle": "",
+      "icon": ""
+    },
+    {
+      "key": "10",
+      "date": "6h40 - 16 Outubro",
+      "title": "Incêndio extinto",
+      "content": "Está extinto o incêndio no Olho Marinho. A área ardida ascende aos 470 hectares de floresta,  mato e zona agrícola. Os bombeiros vão proceder à fase de rescaldo.",
       "iconStyle": "",
       "icon": ""
     }
+
   ]
 }
