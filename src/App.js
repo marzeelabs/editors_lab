@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, type } from 'react';
 import logo from './logo_grande.png';
 import * as FontAwesome from 'react-icons/lib/fa'
 
@@ -9,6 +9,32 @@ class App extends Component {
 
   renderTimelineItems(details) {
     return details.map((entry) => {
+
+
+
+      var IconType = '';
+
+      switch(entry.icon) {
+        case 'road':
+          IconType = FontAwesome.FaRoad;
+          break
+        case 'fire':
+          IconType = FontAwesome.FaFire;
+          break
+        case 'plane':
+          IconType = FontAwesome.FaPlane;
+          break
+        case 'ambulance':
+          IconType = FontAwesome.FaAmbulance;
+          break
+        case 'extinguisher':
+          IconType = FontAwesome.FaExtinguisher;
+          break
+        default:
+          IconType = FontAwesome.FaFire;
+          break
+      }
+
       return (
         <VerticalTimelineElement
           key={entry.key}
@@ -20,7 +46,7 @@ class App extends Component {
             background: "#f00",
             color: "#fff"
           }}
-          icon={<FontAwesome.FaFire />}
+          icon={<IconType />}
         />
       );
     });
@@ -60,8 +86,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <a className="App-back-link" href="https://gazetacaldas.com" target="_blank" rel="noopener noreferrer" >De Volta ao Site</a>
+          <a href="https://gazetacaldas.com" target="_blank" rel="noopener noreferrer" ><img src={logo} className="App-logo" alt="logo" /></a>
         </header>
 
         <div className="App-content-header container">
