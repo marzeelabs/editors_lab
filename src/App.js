@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './logo_grande.png';
 import './App.css';
-
-import Whatshot from 'material-ui-icons/Whatshot';
+import * as FontAwesome from 'react-icons/lib/fa'
 
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
@@ -22,7 +21,7 @@ class App extends Component {
             background: "#f00",
             color: "#fff"
           }}
-          icon={<Whatshot />}
+          icon={<FontAwesome.FaFire />}
         />
       );
     });
@@ -59,11 +58,15 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">{data.event}</h1>
+          <a className="App-back-link" href="https://gazetacaldas.com" target="_blank" rel="noopener noreferrer" >De Volta ao Site</a>
         </header>
-        <p className="App-intro">
-          {data.description}
-        </p>
+
+        <div className="App-content-header">
+          <h1 className="App-title">{data.event}</h1>
+          <p className="App-intro">
+            {data.description}
+          </p>
+        </div>
 
         {this.renderTimeline(data)}
       </div>
