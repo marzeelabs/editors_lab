@@ -1,5 +1,35 @@
 {
-  "event": "Fire Timeline",
-  "description": "",
-  "status": "closed"
+  "event": "Fire Timelime",
+  "description": "Publico Editors Lab - Wildfire Reporting",
+  "status": "open",
+  "area": "",
+  "number_injured": "1",
+  "number_killed": "0",
+  "number_facilities_burned": "",
+  "details": [
+  {
+      "key": "1",
+      "date": "",
+      "title": "PROBLEM",
+      "content": "<ul><li>Lack of resources on Local Newspapers</li><li>Wildfires generate realtime information</li><li>Wildfires generate a lot of events</li><li>Wildfires generate a lot of events</li></ul>",
+      "iconStyle": "",
+      "icon": ""
+    },
+    {
+      "key": "2",
+      "date": "",
+      "title": "SOLUTION",
+      "content": "<ul><li>Newspapers can deliver a Visual Narrative</li><li>Low resources Tool</li><li>Reusable</li><li>Update information in Realtime</li><li>Quick Edition</li><li>Easy Updates</li></ul>",
+      "iconStyle": "",
+      "icon": ""
+    },
+    {
+      "key": "3",
+      "date": "",
+      "title": "TEAM CALDAS",
+      "content": "<ul><li>Joel Ribeiro - Jornalist</li><li>João Belchior - Web Developer</li><li>Francisco Almeida - Developer</li></ul><strong>Powered by - Gazeta das Caldas</strong>",
+      "iconStyle": "",
+      "icon": ""
+    }
+  ]
 }
