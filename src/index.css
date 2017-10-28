@@ -192,26 +192,20 @@ img {
       font-size: 1rem; } }
 
 .vertical-timeline-element-date {
-  font-size: 13px;
-  font-size: .8125rem;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 600;
   color: #333;
   display: inline-block;
   float: left;
   padding: .8em 0;
   opacity: .7; }
-  @media only screen and (min-width: 768px) {
-    .vertical-timeline-element-date {
-      font-size: 14px;
-      font-size: .875rem; } }
   @media only screen and (min-width: 1170px) {
     .vertical-timeline-element-date {
       position: absolute;
       width: 100%;
       left: 122%;
       top: 6px;
-      font-size: 16px;
-      font-size: 1rem; } }
+      padding: .5em 0; } }
 
 .vertical-timeline-element-title {
   margin: 0; }

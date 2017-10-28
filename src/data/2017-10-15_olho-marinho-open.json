@@ -3,23 +3,21 @@
   "description": "Um incêndio que lavra com intensidade desde as 16h00 no Olho Marinho, concelho de Óbidos, provocou o corte de circulação no IP6 entre Óbidos e Peniche, em ambos os sentidos e está ameaçar povoações. ",
   "status": "open",
   "area": "",
-  "number_injured": "0",
-  "number_killed": "0",
+  "number_injured": "",
+  "number_killed": "",
   "number_facilities_burned": "",
   "details": [{
       "key": "1",
       "date": "16h00 - 15 Outubro",
       "title": "Incêndio no Olho Marinho - 2 Frentes",
       "content": "Deflagra um incêndio na zona do Olho Marinho, concelho de Óbidos. Há duas frentes ativas,  uma nas Cesaredas, de perímetro florestal, e outra no Talefe, perto da Serra D’el Rei, zona de mato.",
-      "iconStyle": "",
-      "icon": ""
+      "icon": "fire"
     },
     {
       "key": "2",
       "date": "17h00 - 15 Outubro",
       "title": "Incêndio Descontrolado",
       "content": "O vento forte está a fazer avançar as chamas de forma rápida e descontrolada. Na frente do Olho Marinho o fogo está a aproximar-se de povoações. Estão no local 132 bombeiros apoiados por 32 viaturas.",
-      "iconStyle": "",
       "icon": ""
     },
     {
@@ -27,8 +25,7 @@
       "date": "17h50 - 15 Outubro",
       "title": "Circulação cortada no IP6",
       "content": "O IP6 está cortado ao trânsito nos dois sentidos, entre o nó da A8 e a saída da Serra D’El Rei. O fogo atravessou a via e lavra com intensidade de ambos os lados.",
-      "iconStyle": "",
-      "icon": ""
+      "icon": "road"
     }
   ]
 }

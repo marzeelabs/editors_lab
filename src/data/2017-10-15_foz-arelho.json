@@ -2,17 +2,17 @@
   "event": "Incêndio Foz do Arelho",
   "description": "A zona das quebradas na Serra do Bouro, entre a Foz do Arelho e Salir de Matos, está a ser consumida por um fogo que deflagrou pelas 20h00 de 15 de Outubro. Está cortada a circulação na Estrada Atlântica e há casas ameaçadas.",
   "status": "closed",
-  "area": "430 hectares de área ardida",
-  "number_injured": "4",
-  "number_killed": "0",
-  "number_facilities_burned": "10 estufas",
+  "area": "330 hectares de área ardida",
+  "number_injured": "",
+  "number_killed": "",
+  "number_facilities_burned": "1 habitação",
   "details": [{
       "key": "1",
       "date": "20h15 - 15 Outubro",
       "title": "Há fogo na Foz do Arelho",
       "content": "Está a lavrar um incêndio na encosta Norte da Foz do Arelho em direcção à Serra do Bouro. O alerta foi dado pelas 20h05, foram mobilizados para o local 8 viaturas e cerca de 30 elementos dos bombeiros das Caldas da Rainha.",
       "iconStyle": "",
-      "icon": ""
+      "icon": "fire"
     },
     {
       "key": "2",
