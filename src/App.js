@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo_grande.png';
-import './App.css';
 import * as FontAwesome from 'react-icons/lib/fa'
 
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
+//import 'react-vertical-timeline-component/style.min.css';
 
 class App extends Component {
 

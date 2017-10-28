@@ -19,8 +19,6 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "material-ui": "^1.0.0-beta.18",
-    "material-ui-icons": "^1.0.0-beta.17",
     "react-icons": "^2.2.7",
     "react-vertical-timeline-component": "^1.0.7"
   }
