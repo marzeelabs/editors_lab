@@ -32,14 +32,15 @@ img {
   font-size: 2em; }
 
 .App-intro {
-  font-size: large; }
+  font-size: 18px;
+  max-width: 800px;
+  margin: 0 auto; }
 
 .vertical-timeline {
-  width: 100%;
   max-width: 1170px;
   margin: 2em auto;
   position: relative;
-  padding: 2em 0; }
+  padding: 2em 10px; }
   .vertical-timeline::after {
     content: '';
     display: table;
@@ -48,7 +49,7 @@ img {
     content: '';
     position: absolute;
     top: 3em;
-    left: 18px;
+    left: 28px;
     height: calc(100% - 5em);
     width: 4px;
     background: #ccc; }
@@ -244,9 +245,12 @@ img {
 
 .timeline-footer {
   max-width: 1170px;
-  margin: -3em auto 50px;
-  padding: 0 0 40px;
-  text-align: center; }
+  margin: -2em auto 50px;
+  padding: 0 10px 40px; }
+  @media only screen and (min-width: 1170px) {
+    .timeline-footer {
+      text-align: center;
+      margin-top: -3em; } }
 
 .timeline-footer__notice {
   display: inline-block;
@@ -258,10 +262,14 @@ img {
   font-weight: 600; }
 
 .timeline-footer__dots {
-  text-align: center;
   position: relative;
   top: 30px;
-  font-size: 30px; }
+  font-size: 30px;
+  padding-left: 10px; }
+  @media only screen and (min-width: 1170px) {
+    .timeline-footer__dots {
+      text-align: center;
+      padding-left: 0; } }
 
 .for-demo {
   background: #f4f4f4;

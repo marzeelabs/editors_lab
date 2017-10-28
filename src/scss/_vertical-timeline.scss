@@ -1,9 +1,8 @@
 .vertical-timeline {
-  width: 100%;
   max-width: 1170px;
   margin: 2em auto;
   position: relative;
-  padding: 2em 0;
+  padding: 2em 10px;
 
   &::after {
     content: '';
@@ -15,7 +14,7 @@
     content: '';
     position: absolute;
     top: 3em;
-    left: 18px;
+    left: 28px;
     height: calc(100% - 5em);
     width: 4px;
     background: #ccc;

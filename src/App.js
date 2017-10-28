@@ -64,7 +64,7 @@ class App extends Component {
           <a className="App-back-link" href="https://gazetacaldas.com" target="_blank" rel="noopener noreferrer" >De Volta ao Site</a>
         </header>
 
-        <div className="App-content-header">
+        <div className="App-content-header container">
           <h1 className="App-title">{data.event}</h1>
           <p className="App-intro">
             {data.description}
